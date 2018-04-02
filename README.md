@@ -1,4 +1,5 @@
-# Mail Chimp Integration Comming Soon Page
+# Mail Chimp Integrated Email Capture Page
+A working mail chimp integrated email capture page.
 
 ## Technologies used
 
