@@ -13,6 +13,7 @@ const session = require('express-session');
 const MongoStore = require('connect-mongo') (session);
 // this is for flash messages 
 const flash = require('express-flash');
+const port = process.env.PORT || 3030;
 
 
 // instantiating the express framework
@@ -75,7 +76,7 @@ app.route('/')
 // data life span we use mongodb or redis
 
 // listening port
-app.listen(3030, (err) => {
+app.listen(port, (err) => {
 	if (err) {
 		console.log(err);
 	} else {
