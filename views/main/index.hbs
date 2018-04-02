@@ -1,0 +1,30 @@
+
+
+
+<div class="row">
+	<div class="col">
+		<div class="card">
+			<div class="card-body">
+				{{#if message }}
+					<div class="alert alert-success alert-dismissible">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times</span>
+						</button>
+						{{ message }}
+					</div>
+				{{/if}}
+				<div>
+					<h1>Mail Chimp Integrated Coming Soon Page</h1>
+				</div>
+
+				<form method="post">
+					<div class="form-group">
+						<label for="email">Email Address</label>
+						<input type="email" class="form-control" placeholder="Enter Email" name="email" />
+						<small class="form-text text-muted">we will never share your information.</small>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
